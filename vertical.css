@@ -1,0 +1,95 @@
+body{
+    margin:0;
+    padding :0;
+    background-image:url(./images/abhi.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+}
+nav{
+    background-color:rgba(210,105,30,0.575);
+    width:40%;
+    height: 100vh;
+}
+#cont{
+    margin:0;
+    list-style-type:none;
+    padding:0;
+}
+a{
+display:block;
+    text-decoration:none;
+    color:white;
+    padding:5px;
+    font-size:20px;
+    border-bottom:1px solid white;
+    list-style-type:none;
+}
+a:hover{
+    background-color: green;
+}
+/* #menu{
+    list-style-type:none;
+    padding :0;
+    diplay:none;
+    background-color:rgba(0,255,255,0.582);
+    position: relative ;
+    display:none;
+} */
+#drop:hover #menu{
+    display:block;
+    
+}
+#menu,#im,#real,#one,#rem,#nok{
+    list-style-type:none;
+    padding :0;
+    diplay:none;
+    background-color:rgba(0,255,255,0.582);
+    position: absolute;
+    top:0%;
+    left:100%;
+    display:none;
+}
+#drop{
+    position:relative;
+    
+}
+
+#Ip{
+    position:relative;
+    
+}
+#Ip:hover #im{
+    display:block;
+}
+
+#rm{
+    position:relative;
+    
+}
+#rm:hover #real{
+    display:block;
+}
+
+#op{
+    position:relative;
+    
+}
+#op:hover #one{
+    display:block;
+}
+
+#re{
+    position:relative;
+    
+}
+#re:hover #rem{
+    display:block;
+}
+#no{
+    position:relative;
+    
+}
+#no:hover #nok{
+    display:block;
+}

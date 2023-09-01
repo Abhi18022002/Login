@@ -1,0 +1,23 @@
+h1{
+   display:block;
+    text-align: center;
+    text-transform: Upercase;
+    color: red;
+    
+}
+h1:hover{
+    color:blue;
+    
+    
+}
+#im1{
+    img-width:80px;
+    height:90px ;
+}
+table,th,tr,td{
+border:3px solid red;
+border-collapse: collapse;
+
+body {
+    background-color:light blue;
+}
