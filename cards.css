@@ -3,7 +3,7 @@ body {
     padding:0;
     background-image:url(./images/abhi.jpg);
   background-repeat:no-repeat;
-    
+    background-size:cover;
 }
 #cards{
     display:flex;
